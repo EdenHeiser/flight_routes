@@ -1,24 +1,8 @@
 import pandas as pd
 import numpy as np
 from calculations_and_manipulations import add_country_name_to_airports
-from calculations_and_manipulations import replace_country_name
-
-
-def replace_country_name_for_wpi(wpi):
-    fix_countries_dict = {
-        r'Cote d\' Ivoire' : 'Ivory Coast',
-        'Czechia': 'Czech Republic',
-        'Democratic Republic of the Congo': 'DR Congo',
-        'Eswatini': 'Swaziland',
-        'Kyrgyz Republic': 'Kyrgyzstan',
-        'Palestine': 'Palestine, State of',
-        'Republic of the Congo': '',
-        'The Gambia': 'Gambia',
-        'Turkiye': 'Turkey',
-        'United States of America': 'United States',
-        'Republic of the Congo' : 'Congo'}
-    wpi['region'] = wpi['region'].replace(fix_countries_dict)
-    return wpi
+from calculations_and_manipulations import replace_country_name_for_airports
+from calculations_and_manipulations import replace_country_name_for_wpi
 
 
 def fix_wpi(wpi):
@@ -61,7 +45,7 @@ def fix_airports(airports, fixed_wpi):
     airports['iso_country']
     )
 
-    airports = replace_country_name(airports)
+    airports = replace_country_name_for_airports(airports)
     #dump all of the seaplane bases and closed ones
     #also beacuse there are some mistakes in the lengths
     #I will also dump the balloonports and heliports

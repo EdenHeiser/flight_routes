@@ -16,7 +16,7 @@ def add_country_name_to_airports(airports):
     airports = pd.merge(airports, iso, how='left', left_on='iso_country', right_on='alpha-2')
     return airports
 
-def replace_country_name(airports):
+def replace_country_name_for_airports(airports):
     '''
     There are difference in the country names in airports and in passports
     This func have dictionary of the original names and the good ones based on passport.csv
@@ -92,10 +92,28 @@ def replace_country_name(airports):
     return airports
 
 
+def replace_country_name_for_wpi(wpi):
+    fix_countries_dict = {
+        r'Cote d\' Ivoire' : 'Ivory Coast',
+        'Czechia': 'Czech Republic',
+        'Democratic Republic of the Congo': 'DR Congo',
+        'Eswatini': 'Swaziland',
+        'Kyrgyz Republic': 'Kyrgyzstan',
+        'Palestine': 'Palestine, State of',
+        'The Gambia': 'Gambia',
+        'Turkiye': 'Turkey',
+        'United States of America': 'United States',
+        'Republic of the Congo' : 'Congo'}
+    wpi['region'] = wpi['region'].replace(fix_countries_dict)
+    return wpi
+
+
+
 def make_airport_gg_df(airports_csv):
     ''''
     filter only the important columns for the min_dis calculation
     between route points and airports gg
+    retrieve also the rank column to be able to show it when hover
     '''
     return airports_csv[['id', 'airport_name', 'longitude_deg', 'latitude_deg', 'rank']]
 
