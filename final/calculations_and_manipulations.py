@@ -131,15 +131,15 @@ def calculate_distance(origin_lon, origin_lat, destination_lon, destination_lat)
     distance = geodesic(origin, destination).kilometers
     return distance
 
-def calculate_step_size(airplane_model):
+def calculate_step_size(airplane_model,airplane_models):
     '''
     calculate and return the step size for creating the route points
     it takes airplane model and return the step size in km
     it will make that the difference from the follwing points
     will be 5 minutes of cruising speed
     '''
-    models = pd.read_csv('airplane_models.csv')
-    speed = models[models['Aircraft Model'] == airplane_model]['Cruising Speed'].iloc[0]
+    # models = pd.read_csv('airplane_models.csv')
+    speed = airplane_models[airplane_models['Aircraft Model'] == airplane_model]['Cruising Speed'].iloc[0]
     km_difference = 5 * (speed/60)
     return km_difference
 

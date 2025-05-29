@@ -87,7 +87,7 @@ def create_streamlit(fixed_airports, fixed_runways, airplanes, passports, min_da
 
             # compute route DataFrame
             gg        = origin_and_destination(fixed_airports, origin, destination)
-            route_df  = create_route_points(*gg, airplane_model)
+            route_df  = create_route_points(*gg, airplane_model, airplanes)
             result    = find_closest_airport(route_df, make_airport_gg_df(fixed_airports))
             result    = result.sort_values('index')
             result    = create_galap_id(result, min_danger_dist)

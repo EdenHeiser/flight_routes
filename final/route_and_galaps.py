@@ -8,7 +8,7 @@ from folium import CircleMarker, Marker
 
 
 
-def create_route_points(start_lon, start_lat, end_lon, end_lat, airplane_model):
+def create_route_points(start_lon, start_lat, end_lon, end_lat, airplane_model, airplanes):
     '''
     The func take the start/end coordinates and the airplane model.
     It generates df with points on the shortest route between origin and destination.
@@ -29,7 +29,7 @@ def create_route_points(start_lon, start_lat, end_lon, end_lat, airplane_model):
     line = geod.InverseLine(start_lat, start_lon, end_lat, end_lon)
 
     # Step size and number of steps
-    step_km = calculate_step_size(airplane_model)
+    step_km = calculate_step_size(airplane_model, airplanes)
     n_steps = int(total_distance_km // step_km) + 1
 
     # Compute points along the geodesic path
