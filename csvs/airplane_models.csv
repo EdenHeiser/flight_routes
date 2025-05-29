@@ -1,0 +1,99 @@
+Aircraft Model,Cruising Speed,Type,Minimum Runway Length (m),Runway Info Source
+Airbus A320,828,Medium,1530,https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2025-01/AC_A320_0624.pdf
+Airbus A321,828,Medium,1577,https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2023-02/Airbus-techdata-AC_A321_0322%20%282%29.pdf
+Airbus A319,828,Medium,1490,https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2023-02/Airbus-techdata-AC_A319_0322%20%281%29.pdf
+Airbus A318,828,Medium,1234,https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2023-02/Airbus-techdata-AC_A318_0322.pdf
+Airbus A330-200,871,Large,1750,https://www.airliners.net/forum/viewtopic.php?t=1402289
+Airbus A330-300,871,Large,1800,https://www.airliners.net/forum/viewtopic.php?t=1402289
+Airbus A330neo,871,Large,1800,https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330neo
+Airbus A340-300,875,Large,2100,https://www.aviadoravirtual.com.br/fleet/airbus-a340-300
+Airbus A340-500,875,Large,2500,https://www.airliners.net/forum/viewtopic.php?t=1402289
+Airbus A340-600,875,Large,2700,https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a340-family
+Airbus A350-900,903,Large,1800,https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350
+Airbus A350-1000,903,Large,1900,https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350
+Airbus A380,903,Large,3000,https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380
+Boeing 707,977,Large,2700,https://en.wikipedia.org/wiki/Boeing_707
+Boeing 717,811,Medium,1550,https://en.wikipedia.org/wiki/Boeing_717
+Boeing 727,913,Medium,1800,https://en.wikipedia.org/wiki/Boeing_727
+Boeing 737-300,780,Medium,1800,https://en.wikipedia.org/wiki/Boeing_737_Classic
+Boeing 737-400,780,Medium,1800,https://en.wikipedia.org/wiki/Boeing_737_Classic
+Boeing 737-500,780,Medium,1700,https://en.wikipedia.org/wiki/Boeing_737_Classic
+Boeing 737-600,828,Medium,1770,https://www.portofbellingham.com/DocumentCenter/View/7196/Revised-Runway-Length-Discussion-20171206?bidId=
+Boeing 737-700,828,Medium,1500,Estimate based on aircraft class
+Boeing 737-800,828,Medium,1500,Estimate based on aircraft class
+Boeing 737-900,828,Medium,1500,Estimate based on aircraft class
+Boeing 737 MAX 7,839,Medium,1500,Estimate based on aircraft class
+Boeing 737 MAX 8,839,Medium,1500,Estimate based on aircraft class
+Boeing 737 MAX 9,839,Medium,1500,Estimate based on aircraft class
+Boeing 737 MAX 10,839,Medium,1500,Estimate based on aircraft class
+Boeing 747-100,907,Large,2400,Estimate based on aircraft class
+Boeing 747-200,907,Large,2400,Estimate based on aircraft class
+Boeing 747-300,907,Large,2400,Estimate based on aircraft class
+Boeing 747-400,907,Large,2400,Estimate based on aircraft class
+Boeing 747-8,917,Large,2400,Estimate based on aircraft class
+Boeing 757-200,850,Large,1800,Estimate based on aircraft class
+Boeing 757-300,850,Large,1800,Estimate based on aircraft class
+Boeing 767-200,851,Medium,1500,Estimate based on aircraft class
+Boeing 767-300,851,Medium,1500,Estimate based on aircraft class
+Boeing 767-400,851,Medium,1500,Estimate based on aircraft class
+Boeing 777-200,905,Large,2400,Estimate based on aircraft class
+Boeing 777-200ER,905,Large,2400,Estimate based on aircraft class
+Boeing 777-300,905,Large,2400,Estimate based on aircraft class
+Boeing 777-300ER,905,Large,2400,Estimate based on aircraft class
+Boeing 777X,905,Large,2400,Estimate based on aircraft class
+Boeing 787-8,903,Large,2400,Estimate based on aircraft class
+Boeing 787-9,903,Large,2400,Estimate based on aircraft class
+Boeing 787-10,903,Large,2400,Estimate based on aircraft class
+Embraer E170,829,Medium,1200,Estimate based on aircraft class
+Embraer E175,829,Medium,1200,Estimate based on aircraft class
+Embraer E190,829,Medium,1200,Estimate based on aircraft class
+Embraer E195,829,Medium,1200,Estimate based on aircraft class
+Embraer E2-190,870,Medium,1200,Estimate based on aircraft class
+Embraer E2-195,870,Medium,1200,Estimate based on aircraft class
+Bombardier CRJ100,785,Medium,1200,Estimate based on aircraft class
+Bombardier CRJ200,785,Medium,1200,Estimate based on aircraft class
+Bombardier CRJ700,829,Medium,1200,Estimate based on aircraft class
+Bombardier CRJ900,829,Medium,1200,Estimate based on aircraft class
+Bombardier CRJ1000,829,Medium,1200,Estimate based on aircraft class
+Bombardier CS100 (A220-100),828,Medium,1500,Estimate based on aircraft class
+Bombardier CS300 (A220-300),828,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas DC-9,898,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-80,811,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-81,811,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-82,811,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-83,811,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-87,811,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-88,811,Medium,1500,Estimate based on aircraft class
+McDonnell Douglas MD-90,811,Medium,1500,Estimate based on aircraft class
+Lockheed L-1011 TriStar,890,Medium,1500,Estimate based on aircraft class
+Tupolev Tu-154,950,Medium,1500,Estimate based on aircraft class
+Tupolev Tu-204,850,Medium,1500,Estimate based on aircraft class
+Ilyushin Il-62,900,Medium,1500,Estimate based on aircraft class
+Ilyushin Il-96,900,Medium,1500,Estimate based on aircraft class
+COMAC ARJ21,833,Medium,1500,Estimate based on aircraft class
+COMAC C919,834,Medium,1500,Estimate based on aircraft class
+Mitsubishi SpaceJet M90,828,Medium,1500,Estimate based on aircraft class
+Fokker 70,845,Medium,1500,Estimate based on aircraft class
+Fokker 100,845,Medium,1500,Estimate based on aircraft class
+Sud Aviation Caravelle,805,Medium,1500,Estimate based on aircraft class
+Concorde,2179,Medium,1500,Estimate based on aircraft class
+De Havilland Dash 8-100,498,Medium,1500,Estimate based on aircraft class
+De Havilland Dash 8-300,498,Medium,1500,Estimate based on aircraft class
+De Havilland Dash 8-Q400,667,Medium,1500,Estimate based on aircraft class
+ATR 42,556,Medium,1200,Estimate based on aircraft class
+ATR 72,556,Medium,1200,Estimate based on aircraft class
+BAe 146,780,Medium,1500,Estimate based on aircraft class
+Avro RJ85,780,Medium,1500,Estimate based on aircraft class
+Antonov An-148,870,Medium,1500,Estimate based on aircraft class
+Antonov An-158,870,Medium,1500,Estimate based on aircraft class
+Let L-410 Turbolet,380,Medium,1500,Estimate based on aircraft class
+Saab 340,525,Medium,1500,Estimate based on aircraft class
+Saab 2000,665,Medium,1500,Estimate based on aircraft class
+Fairchild Dornier 328JET,750,Medium,1500,Estimate based on aircraft class
+Yakovlev Yak-42,810,Medium,1500,Estimate based on aircraft class
+Ilyushin Il-114,500,Medium,1500,Estimate based on aircraft class
+Beechcraft 1900,518,Small,700,Estimate based on aircraft class
+Cessna 208 Caravan,343,Small,700,Estimate based on aircraft class
+Pilatus PC-12,500,Medium,1500,Estimate based on aircraft class
+Embraer EMB 120 Brasilia,552,Medium,1200,Estimate based on aircraft class
+Jetstream 41,518,Medium,1500,Estimate based on aircraft class
