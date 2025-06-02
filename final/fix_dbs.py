@@ -13,6 +13,9 @@ def fix_wpi(wpi):
 
 
 def add_wpi_to_airports(airports, wpi):
+    '''
+    Add column of wpi rank to airports csv, based on the country.
+    '''
     airports = pd.merge(airports, wpi, left_on='country', right_on = 'region', how = 'left')
     airports =airports.drop(columns=['region', 'score'])
     return airports
@@ -52,6 +55,7 @@ def fix_airports(airports, fixed_wpi):
     airports = airports[~airports['type'].isin(['seaplane_base', 'closed', 'heliport', 'balloonport'])]
     airports = add_wpi_to_airports(airports, fixed_wpi)
     airports['rank'] = airports['rank'].apply(lambda x : int(x) if x > 0 else -1)
+    airports['airport_name'] = airports.apply(lambda x : x['airport_name'] + ' - ' + x['country'], axis = 1)
     return airports
 
 def fix_runways(runways, updated_airports):

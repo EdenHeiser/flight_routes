@@ -11,7 +11,7 @@ def add_country_name_to_airports(airports):
     :param airports:
     :return:
     '''
-    iso = pd.read_csv(r'C:\Users\97254\PyCharmMiscProject\country_iso.csv')
+    iso = pd.read_csv(r'C:\Users\97254\PyCharmMiscProject\csvs\country_iso.csv')
     iso = iso[['name', 'alpha-2']]
     airports = pd.merge(airports, iso, how='left', left_on='iso_country', right_on='alpha-2')
     return airports
@@ -93,6 +93,11 @@ def replace_country_name_for_airports(airports):
 
 
 def replace_country_name_for_wpi(wpi):
+    '''
+    There are difference in the country names in airports and in WPI'
+    This func have dictionary of the original names and the good ones based on airports.csv
+    It replace the old names with the good ones
+    '''
     fix_countries_dict = {
         r'Cote d\' Ivoire' : 'Ivory Coast',
         'Czechia': 'Czech Republic',
@@ -145,8 +150,8 @@ def calculate_step_size(airplane_model,airplane_models):
 
 def find_closest_airport(points, airports):
     '''
-    This func take point on the route, and takes airports csv
-    Then we calculate the closest airport from the point
+    This func take the points on the route, and takes airports csv
+    Then we calculate the closest airport from each point
     using balltree
     :param points:
     :param airports:
