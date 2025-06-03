@@ -44,7 +44,7 @@ def create_streamlit(fixed_airports, fixed_runways, airplanes, passports, min_da
     '''
     Create the streamlit app
     '''
-    st.title("🛫 Interactive Route Map Between Airports")
+    st.title("Route Risk Analysis for International Flights 🛫")
 
     # placeholder for the second (segment) map
     # segment_placeholder = st.empty()
